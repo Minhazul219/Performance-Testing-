@@ -1,4 +1,5 @@
 Performance Testing
+
 **What is performance testing?**
 **Answer:** Performance testing is defined as type of Non-functional software testing.
 The goal of performance testing to eliminate performance bottlenecks.
