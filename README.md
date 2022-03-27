@@ -43,3 +43,31 @@ heavy workload.
 - Check CPU and memory usage of the application and database server under peak load conditions.(load testing)
 - Verify response time of application under low, normal, moderate and heavy load conditions.(Spike testing)
 
+## JMeter
+  The Apache JMeter application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance.
+  
+## Common Elements Of JMeter
+There are mainly four common elements of JMeter.
+
+- Thread, 
+- Samplers, 
+- Listeners, 
+- Configuration.
+## Thread Group
+Thread Group contains multiple threads. Each Thread represents one user using the application under test. Each thread basically simulates one call user request to the server. Thread count=User.
+
+The controls for a thread group allow you to set the number of threads for each group.
+For example, if you set the number of threads as 100;Jmeter will create and simulate 100 user request to the server under test.
+## Creating First Test in JMeter
+- Step 1: Start JMeter.
+- Step 2: Create a New Test Plan.
+- Step 3: Create a Thread Group(Users).
+- Step 4: Add a Sampler(HTTP). Such as took an url https://www.pavanonlinetrainings.com.
+                On the request the url will be divided.
+                On Protocol it will be http or https.
+                On the Server Name or ID , it will be the rest of the part of url. as like www.pavanonlinetrainings.com
+                 On the path, which module you want to test .Such as Login it will be Login.html  , for                      about page it will be about.html.
+- Step 5: Add Listeners.
+- Step 6: Save Test Plan.
+- Step 7: Run Test Plan.(Go to Thread Group and Run the test).
+
