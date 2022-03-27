@@ -1,11 +1,7 @@
-Performance Testing
-
 **What is performance testing?**
 **Answer:** Performance testing is defined as type of Non-functional software testing.
 The goal of performance testing to eliminate performance bottlenecks.
-The main focus of performance testing is :1.Speed
-                                          2.Scalability
-                                          3.Stability.
+The main focus of performance testing is : 1.Speed, 2.Scalability, 3.Stability.
 Performance testing is popularly called "Perf Testing".
 
 **Why do performance testing?**
